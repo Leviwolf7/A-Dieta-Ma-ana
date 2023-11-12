@@ -3,6 +3,8 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(Enlaces/images/background.jpg);
+    background-size: cover;
 }
 
 .nav-bar {
@@ -14,9 +16,10 @@ body {
     color: #fff;
 }
 
-.nav-bar .title {
+.nav-bar h1 {
     font-size: 62px;
-    color: #fff;
+    color: #c7c7c7;
+    border-bottom: solid 3px #c7c7c7;
 }
 
 .navegador li {
@@ -45,9 +48,9 @@ body {
 }
 
 .title-1 {
-    color: rgb(92, 5, 5);
-    margin-right: 8.5in;
+    color: #c7c7c7;
     font-family: cursive;
+    margin-right: 10pt;
 }
 
 .menu a {
@@ -60,7 +63,7 @@ body {
     border-width: 3pt;
     background: linear-gradient(rgb(92, 5, 5), #e84343);
     color: #fff;
-    margin-left: 70pt;
+    margin-left: 230pt;
 }
 
 .menu a:hover {
@@ -68,3 +71,24 @@ body {
     background: linear-gradient(#e84343, rgb(92, 5, 5));
 }
 
+.logo {
+    margin-right: 650pt;
+    margin-top: 10pt;
+}
+
+.logo figure {
+    border: inset rgb(92, 5, 5);
+    padding: 5pt;
+    background: linear-gradient(rgb(92, 5, 5), #e84343);
+    border-radius: 30px;
+    text-align: center;
+    font-family: cursive;
+    color:#fff;
+    margin-top: 95pt;
+    margin-left: 0pt;
+    border-width: 3pt;
+}
+
+.logo h1 {
+    color: #c7c7c7;
+}
