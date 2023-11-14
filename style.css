@@ -1,6 +1,6 @@
 body {
     background: #f3f3f3;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:cursive;
     margin: 0;
     padding: 0;
     background-image: url(Enlaces/images/background.jpg);
@@ -43,40 +43,48 @@ body {
     background: linear-gradient(#e84343, rgb(92, 5, 5));
 }
 
-.container {
-    padding: 70px;
-}
-
-.title-1 {
-    color: #c7c7c7;
+.left-column {
+    float: left;
     font-family: cursive;
-    margin-right: 10pt;
+    width: 60%;
+    margin-top: 50pt;
+    margin-left: 25pt;
 }
 
-.menu a {
+.left-column h2 {
+    color: #fff;
+    margin-left: 10pt;
+    box-sizing: border-box;
+    background-color:  rgba(92, 5, 5, 0.877);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.left-column h1 {
+    color: #c7c7c7;
+}
+
+.left-column a {
     text-decoration: none;
     text-decoration: none;
     border: inset rgb(92, 5, 5); 
     border-radius: 20px;
-    padding: 10px;
-    font-size: 50px;
-    border-width: 3pt;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 2pt;
     background: linear-gradient(rgb(92, 5, 5), #e84343);
     color: #fff;
-    margin-left: 230pt;
+    margin-bottom: 85pt;
 }
 
-.menu a:hover {
+.left-column a:hover {
     color: rgb(92, 5, 5);
     background: linear-gradient(#e84343, rgb(92, 5, 5));
 }
 
-.logo {
-    margin-right: 650pt;
-    margin-top: 10pt;
-}
-
-.logo figure {
+.left-column figure {
     border: inset rgb(92, 5, 5);
     padding: 5pt;
     background: linear-gradient(rgb(92, 5, 5), #e84343);
@@ -84,11 +92,8 @@ body {
     text-align: center;
     font-family: cursive;
     color:#fff;
-    margin-top: 95pt;
-    margin-left: 0pt;
     border-width: 3pt;
-}
-
-.logo h1 {
-    color: #c7c7c7;
+    position: absolute;
+    margin-top: 50pt;
+    margin-left: 100pt;
 }
